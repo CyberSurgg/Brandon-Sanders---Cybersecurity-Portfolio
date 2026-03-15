@@ -1,7 +1,10 @@
 Cybersecurity Incident Report
+-----------------------------
 
 Section 1: Identify the type of attack that may have caused this 
 network interruption
+----------------------------------------------------------------
+
 One potential explanation for the website's connection timeout error message is: The connection timeout was likely caused by a SYN flood attack that overwhelmed the web server with a large number of connection requests.
 
 The logs show that: The logs show repeated SYN packets sent from the same IP address 203.0.113.0 sent to 192.0.2.1.
@@ -13,6 +16,8 @@ This event could be: The event could be a SYN flood attack.
 
 
 Section 2: Explain how the attack is causing the website to malfunction
+-----------------------------------------------------------------------
+
 When website visitors try to establish a connection with the web server, a three-way handshake occurs using the TCP protocol. Explain the three steps of the handshake:
 The client sends a SYN packet to the server to request a connection.
 
